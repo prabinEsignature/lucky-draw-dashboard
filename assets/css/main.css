@@ -1,0 +1,301 @@
+/* ####### FONT STACKS - AKRITI & SAMSUNG SANS FONTS ######## */
+@font-face {
+  font-family: "Samsung Sharp Sans";
+  src: url("./fonts/SamsungSharpSans.eot");
+  src: local("Samsung Sharp Sans"), local("SamsungSharpSans"),
+    url("./fonts/SamsungSharpSans.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/SamsungSharpSans.woff2") format("woff2"),
+    url("./fonts/SamsungSharpSans.woff") format("woff"),
+    url("./fonts/SamsungSharpSans.ttf") format("truetype"),
+    url("./fonts/SamsungSharpSans.svg#SamsungSharpSans") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aakriti";
+  src: url("./fonts/AakritiBold.eot");
+  src: local("Aakriti Bold"), local("AakritiBold"),
+    url("./fonts/AakritiBold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/AakritiBold.woff2") format("woff2"),
+    url("./fonts/AakritiBold.woff") format("woff"),
+    url("./fonts/AakritiBold.ttf") format("truetype"),
+    url("./fonts/AakritiBold.svg#AakritiBold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Samsung Sharp Sans";
+  src: url("./fonts/SamsungSharpSans-Medium.eot");
+  src: local("Samsung Sharp Sans Medium"), local("SamsungSharpSans-Medium"),
+    url("./fonts/SamsungSharpSans-Medium.eot?#iefix")
+      format("embedded-opentype"),
+    url("./fonts/SamsungSharpSans-Medium.woff2") format("woff2"),
+    url("./fonts/SamsungSharpSans-Medium.woff") format("woff"),
+    url("./fonts/SamsungSharpSans-Medium.ttf") format("truetype"),
+    url("./fonts/SamsungSharpSans-Medium.svg#SamsungSharpSans-Medium")
+      format("svg");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Aakriti";
+  src: url("./fonts/Aakriti.eot");
+  src: local("Aakriti"),
+    url("./fonts/Aakriti.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/Aakriti.woff2") format("woff2"),
+    url("./fonts/Aakriti.woff") format("woff"),
+    url("./fonts/Aakriti.ttf") format("truetype"),
+    url("./fonts/Aakriti.svg#Aakriti") format("svg");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Samsung Sharp Sans";
+  src: url("./fonts/SamsungSharpSans-Bold.eot");
+  src: local("Samsung Sharp Sans Bold"), local("SamsungSharpSans-Bold"),
+    url("./fonts/SamsungSharpSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("./fonts/SamsungSharpSans-Bold.woff2") format("woff2"),
+    url("./fonts/SamsungSharpSans-Bold.woff") format("woff"),
+    url("./fonts/SamsungSharpSans-Bold.ttf") format("truetype"),
+    url("./fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold") format("svg");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ##### ROOT VARIABLES ##### */
+:root {
+  --default-black: #000;
+  --default-white: #fff;
+  --font-family-akriti: "Aakriti";
+  --font-family-samsung: "Samsung Sharp Sans";
+  --transition: all 300ms ease-in-out;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+a {
+  color: var(--default-black);
+  text-decoration: none;
+}
+
+/* UTILS CLASSES */
+.font-akriti {
+  font-family: "Aakriti";
+}
+.font-samsung {
+  font-family: "Samsung Sharp Sans";
+}
+
+body {
+  min-height: 100vh;
+  font-family: var(--font-family-samsung);
+  line-height: 1.6;
+}
+
+/* TEXT UITLS */
+.text-lg {
+  font-size: 48px;
+}
+.text-xl{
+    font-size: 56px;
+}
+.text-2xl {
+  font-size: 66px;
+}
+
+/* COMMON STYLINGS */
+.navbar-brand {
+  max-width: 306px;
+  min-width: 306px;
+  position: absolute;
+  top: 40px;
+  left: 40px;
+}
+.navbar-brand img {
+  width: 100%;
+}
+
+/* FLEX UTILS */
+.d-flex {
+  display: flex;
+}
+.d-flex-center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.align-items-center {
+  align-items: center;
+}
+.align-items-start {
+  align-items: flex-start;
+}
+.align-items-end {
+  align-items: flex-end;
+}
+.align-items-baseline {
+  align-items: baseline;
+}
+.justify-content-center {
+  justify-content: center;
+}
+.justify-content-start {
+  justify-content: flex-start;
+}
+.justify-content-end {
+  justify-content: flex-end;
+}
+.flex-wrap {
+  flex-wrap: wrap;
+}
+.flex-1 {
+  flex: 1;
+}
+.flex-column {
+  flex-direction: column;
+}
+.flex-row {
+  flex-direction: row;
+}
+
+/* MARGIN & PADDING UTILS */
+.my-0 {
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+.mt-3 {
+  margin-top: 12px !important;
+}
+
+/* LINE HEIGHTS */
+.leading-0 {
+  line-height: 0;
+}
+.leading-1{
+    line-height: 1;
+}
+
+/* TRACKING */
+.tracking-1 {
+  letter-spacing: 1px;
+}
+
+/* ROW & COLUMN GAP */
+.gap-x-5 {
+  column-gap: 20px;
+}
+.gap-x-4{
+    column-gap: 16px;
+}
+.gap-x-3{
+    column-gap: 12px;
+}
+.gap-y-5 {
+  row-gap: 20px;
+}
+.gap-5 {
+  gap: 20px;
+}
+
+/* BUTTONS */
+button {
+  border: 0;
+  background: transparent;
+  outline: 0;
+}
+.page-btn {
+  background: var(--default-black);
+  color: var(--default-white);
+  height: 48px;
+  border-radius: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  cursor: pointer;
+  padding-right: 24px;
+  padding-left: 24px;
+  transition: var(--transition);
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+.page-btn:hover {
+  transform: translateY(-2px);
+}
+
+/* PAGE ONE */
+.page-wrapper {
+  min-height: calc(100vh - 80px);
+  padding: 40px;
+  position: relative;
+}
+.page-wrapper-1 {
+  background: url("../images/banner_bg_2.png") top/cover no-repeat;
+}
+.page-content{
+    max-width: 1580px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.page-content-top {
+  margin-top: 150px;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.page-lead-container {
+  padding-left: 45px;
+  padding-right: 45px;
+  text-align: center;
+  margin-top: -12px;
+  flex: 1;
+}
+.page-btn-wrapper .page-upload-btn {
+  margin-right: 25px;
+  flex-basis: 306px;
+}
+.page-btn-wrapper .page-reset-btn {
+  margin-left: 60px;
+}
+.page-lead-content {
+  max-width: 660px;
+}
+
+/* TEXT RELATED STYLINGS */
+.dashain-text {
+  position: relative;
+}
+.dashain-text::after {
+  content: "";
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-image: url("../images/jamara.svg");
+  background-repeat: no-repeat;
+  top: 5px;
+  left: 54px;
+}
+.lead-text-item.lead-text-item-03{
+    margin-top: -14px;
+}
+.page-content-bottom{
+    margin-top: 200px;
+}
+
+@media(max-width: 1700px){
+}
