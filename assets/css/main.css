@@ -252,6 +252,9 @@ button {
   outline: 0;
 }
 .page-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
   background: var(--default-black);
   color: var(--default-white);
   height: 48px;
@@ -401,10 +404,10 @@ button {
   font-size: 18px;
 }
 .page-wrapper-3 .page-content-bottom {
-  margin-top: -20px;
+  margin-top: -32px;
 }
 .page-wrapper-3 .page-click-btn {
-  margin-top: 28px;
+  margin-top: 36px;
 }
 .page-winner-items-group:nth-child(2) {
   margin-top: 32px;
