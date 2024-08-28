@@ -427,6 +427,10 @@ button {
     min-height: calc(100vh - 32px);
     padding: 16px;
   }
+
+  .page-wrapper-2 .winner-item-label{
+    font-size: 24px;
+  }
 }
 
 @media (max-width: 1280px) {
