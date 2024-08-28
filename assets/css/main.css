@@ -112,11 +112,43 @@ body {
 .text-lg {
   font-size: 48px;
 }
-.text-xl{
-    font-size: 56px;
+.text-xl {
+  font-size: 60px;
 }
 .text-2xl {
   font-size: 66px;
+}
+.text-3xl {
+  font-size: 70px;
+}
+
+/* FONT WEIGHTS */
+.font-thin {
+  font-weight: 100;
+}
+.font-extralight {
+  font-weight: 200;
+}
+.font-light {
+  font-weight: 300;
+}
+.font-normal {
+  font-weight: 400;
+}
+.font-medium {
+  font-weight: 500;
+}
+.font-semibold {
+  font-weight: 600;
+}
+.font-bold {
+  font-weight: 700;
+}
+.font-extrabold {
+  font-weight: 800;
+}
+.font-black {
+  font-weight: 900;
 }
 
 /* COMMON STYLINGS */
@@ -187,8 +219,8 @@ body {
 .leading-0 {
   line-height: 0;
 }
-.leading-1{
-    line-height: 1;
+.leading-1 {
+  line-height: 1;
 }
 
 /* TRACKING */
@@ -200,11 +232,11 @@ body {
 .gap-x-5 {
   column-gap: 20px;
 }
-.gap-x-4{
-    column-gap: 16px;
+.gap-x-4 {
+  column-gap: 16px;
 }
-.gap-x-3{
-    column-gap: 12px;
+.gap-x-3 {
+  column-gap: 12px;
 }
 .gap-y-5 {
   row-gap: 20px;
@@ -245,12 +277,18 @@ button {
   position: relative;
 }
 .page-wrapper-1 {
-  background: url("../images/banner_bg_2.png") top/cover no-repeat;
+  background: url("../images/start_bg.png") top/cover no-repeat;
 }
-.page-content{
-    max-width: 1580px;
-    margin-right: auto;
-    margin-left: auto;
+.page-wrapper-2 {
+  background: url("../images/winner_bg.png") top/cover no-repeat;
+}
+.page-wrapper-3 {
+  background: url("../images/backup_bg.png") top/cover no-repeat;
+}
+.page-content {
+  max-width: 1580px;
+  margin-right: auto;
+  margin-left: auto;
 }
 .page-content-top {
   margin-top: 150px;
@@ -290,12 +328,87 @@ button {
   top: 5px;
   left: 54px;
 }
-.lead-text-item.lead-text-item-03{
-    margin-top: -14px;
+.lead-text-item.lead-text-item-03 {
+  margin-top: -14px;
 }
-.page-content-bottom{
-    margin-top: 200px;
+.page-content-bottom {
+  margin-top: 200px;
 }
 
-@media(max-width: 1700px){
+/* SCREEN WINNER */
+.page-wrapper-2 .page-lead-content,
+.page-wrapper-3 .page-lead-content {
+  margin-right: auto;
+  margin-left: auto;
+}
+.page-wrapper-2 .page-lead-container {
+  margin-top: -125px;
+}
+.page-wrapper-3 .page-lead-container {
+  margin-top: -190px;
+}
+.page-wrapper-3 .page-lead-content{
+  scale: 0.8;
+}
+.page-wrapper-2 .page-content-bottom,
+.page-wrapper-3 .page-content-bottom {
+  margin-top: 48px;
+}
+.page-winner-items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  row-gap: 48px;
+  column-gap: 48px;
+}
+.winner-item-serial {
+  border: 4px solid var(--default-black);
+  border-radius: 16px;
+  padding: 2px 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 40px;
+  line-height: 1;
+  font-size: 24px;
+  font-weight: bold;
+}
+.page-click-btn {
+  margin-top: 50px;
+}
+.winner-item-label {
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.page-wrapper-3 .page-winner-items-group{
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.page-wrapper-3 .winner-item-label{
+  font-size: 22px;
+}
+.page-wrapper-3 .winner-item-label{
+  margin-bottom: 12px;
+}
+.page-wrapper-3 .page-winner-items{
+  row-gap: 16px;
+  column-gap: 40px;
+}
+.page-wrapper-3 .winner-item-serial{
+  height: 27px;
+  font-size: 18px;
+}
+.page-wrapper-3 .page-content-bottom{
+  margin-top: -20px;
+}
+.page-wrapper-3 .page-click-btn{
+  margin-top: 28px;
+}
+.page-winner-items-group:nth-child(2){
+  margin-top: 32px;
+}
+.page-winner-items-ttl{
+  font-size: 28px;
+  margin-bottom: 12px;
 }
