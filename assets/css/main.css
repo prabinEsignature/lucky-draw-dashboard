@@ -262,6 +262,7 @@ button {
   cursor: pointer;
   padding-right: 24px;
   padding-left: 24px;
+  white-space: nowrap;
   transition: var(--transition);
   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
     rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
@@ -347,7 +348,7 @@ button {
 .page-wrapper-3 .page-lead-container {
   margin-top: -190px;
 }
-.page-wrapper-3 .page-lead-content{
+.page-wrapper-3 .page-lead-content {
   scale: 0.8;
 }
 .page-wrapper-2 .page-content-bottom,
@@ -380,35 +381,85 @@ button {
   font-weight: bold;
   margin-bottom: 20px;
 }
-.page-wrapper-3 .page-winner-items-group{
+.page-wrapper-3 .page-winner-items-group {
   max-width: 1280px;
   margin-right: auto;
   margin-left: auto;
 }
-.page-wrapper-3 .winner-item-label{
+.page-wrapper-3 .winner-item-label {
   font-size: 22px;
 }
-.page-wrapper-3 .winner-item-label{
+.page-wrapper-3 .winner-item-label {
   margin-bottom: 12px;
 }
-.page-wrapper-3 .page-winner-items{
+.page-wrapper-3 .page-winner-items {
   row-gap: 16px;
   column-gap: 40px;
 }
-.page-wrapper-3 .winner-item-serial{
+.page-wrapper-3 .winner-item-serial {
   height: 27px;
   font-size: 18px;
 }
-.page-wrapper-3 .page-content-bottom{
+.page-wrapper-3 .page-content-bottom {
   margin-top: -20px;
 }
-.page-wrapper-3 .page-click-btn{
+.page-wrapper-3 .page-click-btn {
   margin-top: 28px;
 }
-.page-winner-items-group:nth-child(2){
+.page-winner-items-group:nth-child(2) {
   margin-top: 32px;
 }
-.page-winner-items-ttl{
+.page-winner-items-ttl {
   font-size: 28px;
   margin-bottom: 12px;
 }
+
+@media (max-width: 1600px) {
+  .page-content,
+  .navbar-brand {
+    scale: 0.8;
+  }
+  .navbar-brand {
+    top: 16px;
+    left: 16px;
+  }
+  .page-wrapper {
+    min-height: calc(100vh - 32px);
+    padding: 16px;
+  }
+}
+
+@media (max-width: 1280px) {
+  .page-winner-items {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .page-lead-container{
+    padding: 0;
+  }
+}
+
+@media (max-width: 1080px) {
+  .page-content,
+  .navbar-brand {
+    scale: 0.7;
+  }
+  .page-content{
+    transform: translateY(-200px);
+  }
+  .page-winner-items {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .page-lead-content{
+    scale: 0.7!important;
+  }
+}
+
+@media (max-width: 992px) {
+  .page-content{
+    transform: translateY(-260px);
+  }
+  .page-winner-items {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
