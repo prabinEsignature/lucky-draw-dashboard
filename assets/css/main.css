@@ -251,6 +251,9 @@ button {
   background: transparent;
   outline: 0;
 }
+.csv-upload-input{
+  display: none;
+}
 .page-btn {
   display: inline-flex;
   align-items: center;
