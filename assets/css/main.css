@@ -276,6 +276,31 @@ button {
 .page-btn:hover {
   transform: translateY(-2px);
 }
+.page-btn-wrapper{
+  position: relative;
+}
+.page-alert-msg{
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 25px;
+  text-align: center;
+  padding: 8px 4px;
+  line-height: 1.4;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 8px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  border-radius: 6px;
+}
+.page-alert-msg.success-msg{
+  background: #187622;
+  color: #fff;
+}
+.page-alert-msg.error-msg{
+  background: #BB2124;
+  color: #fff;
+}
 
 /* PAGE ONE */
 .page-wrapper {
@@ -433,7 +458,6 @@ button {
     min-height: calc(100vh - 32px);
     padding: 16px;
   }
-
   .page-wrapper-2 .winner-item-label{
     font-size: 24px;
   }
