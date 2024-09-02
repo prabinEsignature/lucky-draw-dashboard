@@ -1,13 +1,13 @@
 /* ####### FONT STACKS - AKRITI & SAMSUNG SANS FONTS ######## */
 @font-face {
   font-family: "Samsung Sharp Sans";
-  src: url("./fonts/SamsungSharpSans.eot");
+  src: url("../fonts/SamsungSharpSans.eot");
   src: local("Samsung Sharp Sans"), local("SamsungSharpSans"),
-    url("./fonts/SamsungSharpSans.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/SamsungSharpSans.woff2") format("woff2"),
-    url("./fonts/SamsungSharpSans.woff") format("woff"),
-    url("./fonts/SamsungSharpSans.ttf") format("truetype"),
-    url("./fonts/SamsungSharpSans.svg#SamsungSharpSans") format("svg");
+    url("../fonts/SamsungSharpSans.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SamsungSharpSans.woff2") format("woff2"),
+    url("../fonts/SamsungSharpSans.woff") format("woff"),
+    url("../fonts/SamsungSharpSans.ttf") format("truetype"),
+    url("../fonts/SamsungSharpSans.svg#SamsungSharpSans") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -15,13 +15,13 @@
 
 @font-face {
   font-family: "Aakriti";
-  src: url("./fonts/AakritiBold.eot");
+  src: url("../fonts/AakritiBold.eot");
   src: local("Aakriti Bold"), local("AakritiBold"),
-    url("./fonts/AakritiBold.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/AakritiBold.woff2") format("woff2"),
-    url("./fonts/AakritiBold.woff") format("woff"),
-    url("./fonts/AakritiBold.ttf") format("truetype"),
-    url("./fonts/AakritiBold.svg#AakritiBold") format("svg");
+    url("../fonts/AakritiBold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/AakritiBold.woff2") format("woff2"),
+    url("../fonts/AakritiBold.woff") format("woff"),
+    url("../fonts/AakritiBold.ttf") format("truetype"),
+    url("../fonts/AakritiBold.svg#AakritiBold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -29,14 +29,14 @@
 
 @font-face {
   font-family: "Samsung Sharp Sans";
-  src: url("./fonts/SamsungSharpSans-Medium.eot");
+  src: url("../fonts/SamsungSharpSans-Medium.eot");
   src: local("Samsung Sharp Sans Medium"), local("SamsungSharpSans-Medium"),
-    url("./fonts/SamsungSharpSans-Medium.eot?#iefix")
+    url("../fonts/SamsungSharpSans-Medium.eot?#iefix")
       format("embedded-opentype"),
-    url("./fonts/SamsungSharpSans-Medium.woff2") format("woff2"),
-    url("./fonts/SamsungSharpSans-Medium.woff") format("woff"),
-    url("./fonts/SamsungSharpSans-Medium.ttf") format("truetype"),
-    url("./fonts/SamsungSharpSans-Medium.svg#SamsungSharpSans-Medium")
+    url("../fonts/SamsungSharpSans-Medium.woff2") format("woff2"),
+    url("../fonts/SamsungSharpSans-Medium.woff") format("woff"),
+    url("../fonts/SamsungSharpSans-Medium.ttf") format("truetype"),
+    url("../fonts/SamsungSharpSans-Medium.svg#SamsungSharpSans-Medium")
       format("svg");
   font-weight: 500;
   font-style: normal;
@@ -45,13 +45,13 @@
 
 @font-face {
   font-family: "Aakriti";
-  src: url("./fonts/Aakriti.eot");
+  src: url("../fonts/Aakriti.eot");
   src: local("Aakriti"),
-    url("./fonts/Aakriti.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/Aakriti.woff2") format("woff2"),
-    url("./fonts/Aakriti.woff") format("woff"),
-    url("./fonts/Aakriti.ttf") format("truetype"),
-    url("./fonts/Aakriti.svg#Aakriti") format("svg");
+    url("../fonts/Aakriti.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/Aakriti.woff2") format("woff2"),
+    url("../fonts/Aakriti.woff") format("woff"),
+    url("../fonts/Aakriti.ttf") format("truetype"),
+    url("../fonts/Aakriti.svg#Aakriti") format("svg");
   font-weight: normal;
   font-style: normal;
   font-display: swap;
@@ -59,13 +59,13 @@
 
 @font-face {
   font-family: "Samsung Sharp Sans";
-  src: url("./fonts/SamsungSharpSans-Bold.eot");
+  src: url("../fonts/SamsungSharpSans-Bold.eot");
   src: local("Samsung Sharp Sans Bold"), local("SamsungSharpSans-Bold"),
-    url("./fonts/SamsungSharpSans-Bold.eot?#iefix") format("embedded-opentype"),
-    url("./fonts/SamsungSharpSans-Bold.woff2") format("woff2"),
-    url("./fonts/SamsungSharpSans-Bold.woff") format("woff"),
-    url("./fonts/SamsungSharpSans-Bold.ttf") format("truetype"),
-    url("./fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold") format("svg");
+    url("../fonts/SamsungSharpSans-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/SamsungSharpSans-Bold.woff2") format("woff2"),
+    url("../fonts/SamsungSharpSans-Bold.woff") format("woff"),
+    url("../fonts/SamsungSharpSans-Bold.ttf") format("truetype"),
+    url("../fonts/SamsungSharpSans-Bold.svg#SamsungSharpSans-Bold") format("svg");
   font-weight: bold;
   font-style: normal;
   font-display: swap;
@@ -346,6 +346,10 @@ button {
   max-width: 660px;
 }
 
+.display-status{
+  display: none;
+}
+
 /* TEXT RELATED STYLINGS */
 .dashain-text {
   position: relative;
@@ -389,7 +393,7 @@ button {
 .page-winner-items {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
-  row-gap: 48px;
+  row-gap: 20px;
   column-gap: 48px;
 }
 .winner-item-serial {
@@ -410,7 +414,7 @@ button {
 .winner-item-label {
   font-size: 28px;
   font-weight: bold;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 .page-wrapper-3 .page-winner-items-group {
   max-width: 1280px;
@@ -418,31 +422,36 @@ button {
   margin-left: auto;
 }
 .page-wrapper-3 .winner-item-label {
-  font-size: 22px;
+  font-size: 20px;
 }
 .page-wrapper-3 .winner-item-label {
-  margin-bottom: 12px;
+  margin-bottom: 4px;
 }
 .page-wrapper-3 .page-winner-items {
-  row-gap: 16px;
+  row-gap: 10px;
   column-gap: 40px;
 }
 .page-wrapper-3 .winner-item-serial {
   height: 27px;
   font-size: 18px;
+  border-width: 3px;
 }
 .page-wrapper-3 .page-content-bottom {
   margin-top: -32px;
 }
 .page-wrapper-3 .page-click-btn {
-  margin-top: 36px;
+  margin-top: 24px;
 }
 .page-winner-items-group:nth-child(2) {
-  margin-top: 32px;
+  margin-top: 20px;
 }
 .page-winner-items-ttl {
-  font-size: 28px;
-  margin-bottom: 12px;
+  font-size: 24px;
+  margin-bottom: 4px;
+}
+
+.invisible{
+  visibility: hidden;
 }
 
 @media (max-width: 1600px) {
@@ -496,4 +505,3 @@ button {
     grid-template-columns: repeat(2, 1fr);
   }
 }
-
